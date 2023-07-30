@@ -5,3 +5,20 @@
 *{
     font-family: 'Montserrat', sans-serif;
 }
+
+.zoom {
+   
+    transition: transform .2s;
+   
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(.97); /* IE 9 */
+    -webkit-transform: scale(.97); /* Safari 3-8 */
+    transform: scale(.97); 
+    overflow: hidden;
+  }
+
+select option{
+    
+}
