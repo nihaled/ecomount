@@ -24,3 +24,14 @@
 .yellowlink:hover {
   color: #f9b701;
 }
+
+.gradbluegreen {
+  background: rgb(0, 188, 163);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 188, 163, 1) 0%,
+    rgba(14, 199, 92, 1) 100%
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
