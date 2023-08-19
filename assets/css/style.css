@@ -35,3 +35,8 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
+
+.greenunderline {
+  width: fit-content;
+  border-bottom: solid 3px rgb(14 199 92);
+}
