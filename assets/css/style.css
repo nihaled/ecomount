@@ -40,3 +40,9 @@
   width: fit-content;
   border-bottom: solid 3px rgb(14 199 92);
 }
+
+@media (max-width: 767px) {                  
+  .logodnone {
+     display: none;
+  }
+}
