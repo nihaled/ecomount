@@ -31,7 +31,7 @@
 }
 
 .greenlink:hover {
-  color: #3bbd13;
+  color: #0ec75c;
 }
 
 .gradbluegreen {
@@ -39,7 +39,7 @@
   background: linear-gradient(
     180deg,
     rgba(0, 188, 163, 1) 0%,
-    rgba(14, 199, 92, 1) 100%
+    #0ec75c 100%
   );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
