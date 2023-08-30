@@ -25,6 +25,15 @@
   color: #f9b701;
 }
 
+.greenlink {
+  text-underline-offset: 8px;
+  text-decoration: none;
+}
+
+.greenlink:hover {
+  color: #3bbd13;
+}
+
 .gradbluegreen {
   background: rgb(0, 188, 163);
   background: linear-gradient(
