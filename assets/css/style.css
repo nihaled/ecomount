@@ -6,6 +6,11 @@
   font-family: "Montserrat", sans-serif;
 }
 
+.backgroundimage{
+  background-size: cover;
+  background-position: center;
+}
+
 .zoom {
   transition: transform 0.2s;
 }
