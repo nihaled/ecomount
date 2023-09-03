@@ -14,7 +14,8 @@
     <section>
       <nav class="navbar navbar-expand-md">
         <div class="container-fluid">
-          <a class="navbar-brand d-md-block d-block d-md-none" href="#"><img src="assets/images/logomain.png" style="max-width: 200px" alt="" /></a>
+          <a class="navbar-brand d-md-block d-block d-md-none" href="#"><img src="assets/images/logomain.png"
+              style="max-width: 200px" alt="" /></a>
           <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -24,14 +25,21 @@
                 <a class="nav-link" href="index.html">HOME</a>
               </li>
               <li class="nav-item dropdown py-3 px-lg-3">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="aboutus.html" role="button" aria-expanded="false">ABOUT US</a>
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="aboutus.html" role="button"
+                  aria-expanded="false">ABOUT US</a>
                 <ul class="dropdown-menu border-0 rounded-0 shadow">
                   <li><a class="dropdown-item" href="aboutus.html">About Ecomount</a></li>
-                  <li><hr class="dropdown-divider"></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
                   <li><a class="dropdown-item" href="leadership.html">Leadership</a></li>
-                  <li><hr class="dropdown-divider"></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
                   <li><a class="dropdown-item" href="philosophy.html">Philosophy</a></li>
-                  <li><hr class="dropdown-divider"></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
                   <li><a class="dropdown-item" href="values.html">Values</a></li>
                 </ul>
               </li>
@@ -39,7 +47,8 @@
                 <a class="nav-link" href="projects.html">PROJECTS</a>
               </li>
               <li class="nav-item logodnone">
-                <a class="nav-link" href="index.html"> <img src="assets/images/logomain.png" style="max-width: 200px" alt="" />
+                <a class="nav-link" href="index.html"> <img src="assets/images/logomain.png" style="max-width: 200px"
+                    alt="" />
                 </a>
               </li>
               <li class="nav-item py-3 px-lg-3">
@@ -98,7 +107,8 @@
       </div>
     </section> -->
 
-    <section class="position-relative z-1 backgroundimage" style="background-image: url(assets/images/Hllview.JPG); height: 80vh;">
+    <section class="position-relative z-1 backgroundimage"
+      style="background-image: url(assets/images/Hllview.JPG); height: 80vh;">
       <!-- <img class="w-100" src="assets/images/Mainbanner.jpg" alt="" /> -->
       <div class="text-white text-center position-absolute top-50 start-50 translate-middle">
         <h3>
@@ -113,46 +123,140 @@
       </div>
 
       <div class="col-10 position-absolute top-100 start-50 translate-middle">
-        <div class="row bg-white justify-content-center p-2 h6" style="font-size: smaller;">
-          <div class="col-sm-6 col-md">
-            <label for="" class="">&nbsp; PROPERTY TYPE</label>
-            <select class="form-select rounded-0 border-0" aria-label="Default select example">
-              <option class="py-2 shadow" selected>Any</option>
-              <option value="1">Home</option>
-              <option value="2">Office</option>
-              <option value="3">Rental</option>
-              <option value="4">Hospitality</option>
-            </select>
+        <div class="accordion d-block d-sm-none" id="accordionExample">
+          <div class="accordion-item rounded-0 border-0">
+            <!-- <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Accordion Item #1
+              </button>
+            </h2> -->
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="row">
+                  <div class="col-sm-6 col-md">
+                    <!-- <label for="" class="">&nbsp; Community</label> -->
+                    <select class="form-select rounded-0 border-0" aria-label="Default select example">
+                      <option selected>Select Community</option>
+                      <option value="1">Green City</option>
+                      <option value="2">M Tower</option>
+                      <option value="3">Cassia</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-12 col-md">
+                    <button type="button" class="rounded-0 btn text-white w-100 my-2 p-2"
+                      style="background-color: #f9b701; font-size: small;">
+                      SEARCH PROPERTIES
+                    </button>
+                    <p class="accordion-butto btn btn-link fs-6 collapsed py-0 mb-0" type="button"
+                      data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                      aria-controls="collapseTwo">
+                      More Options
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-sm-6 col-md">
-            <label for="" class="">&nbsp; BEDROOM</label>
-            <select class="form-select rounded-0 border-0" aria-label="Default select example">
-              <option selected>Any</option>
-              <option value="1">2 - BHK</option>
-              <option value="2">4 - BHK</option>
-            </select>
+
+          <div class="accordion-item border-0 rounded-0">
+            <h1 class="accordion-header mb-0">
+            </h1>
+            <div id="collapseTwo" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <div class="row bg-white justify-content-center h6" style="font-size: smaller;">
+                  <div class="col-sm-6 col-md">
+                    <label for="" class="">&nbsp; PROPERTY TYPE</label>
+                    <select class="form-select rounded-0 border-0" aria-label="Default select example">
+                      <option class="py-2 shadow" selected>Any</option>
+                      <option value="1">Home</option>
+                      <option value="2">Office</option>
+                      <option value="3">Rental</option>
+                      <option value="4">Hospitality</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-6 col-md">
+                    <label for="" class="">&nbsp; BEDROOM</label>
+                    <select class="form-select rounded-0 border-0" aria-label="Default select example">
+                      <option selected>Any</option>
+                      <option value="1">2 - BHK</option>
+                      <option value="2">4 - BHK</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-6 col-md">
+                    <label for="" class="">&nbsp; PRICE RANGE</label>
+                    <select class="form-select rounded-0 border-0" aria-label="Default select example">
+                      <option selected>Any</option>
+                      <option value="1">40 Lakhs to 2 Crores</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-6 col-md">
+                    <label for="" class="">&nbsp; Community</label>
+                    <select class="form-select rounded-0 border-0" aria-label="Default select example">
+                      <option selected>All Communities</option>
+                      <option value="1">Green City</option>
+                      <option value="2">M Tower</option>
+                      <option value="3">Cassia</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-12 col-md">
+                    <button type="button" class="rounded-0 btn text-white w-100 my-2 p-2"
+                      style="background-color: #f9b701; font-size: small;">
+                      SEARCH PROPERTIES
+                    </button>
+                  </div>
+                  <p class="accordion-butto btn btn-link fs-6 collapsed py-0 mb-0" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
+                    aria-controls="collapseOne">
+                    Less Options
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-sm-6 col-md">
-            <label for="" class="">&nbsp; PRICE RANGE</label>
-            <select class="form-select rounded-0 border-0" aria-label="Default select example">
-              <option selected>Any</option>
-              <option value="1">40 Lakhs to 2 Crores</option>
-            </select>
-          </div>
-          <div class="col-sm-6 col-md">
-            <label for="" class="">&nbsp; Community</label>
-            <select class="form-select rounded-0 border-0" aria-label="Default select example">
-              <option selected>All Communities</option>
-              <option value="1">Green City</option>
-              <option value="2">M Tower</option>
-              <option value="3">Cassia</option>
-            </select>
-          </div>
-          <div class="col-sm-12 col-md">
-            <button type="button" class="rounded-0 btn text-white w-100 my-2 p-2"
-              style="background-color: #f9b701; font-size: small;">
-              SEARCH PROPERTIES
-            </button>
+        </div>
+
+        <div class="d-none d-sm-block">
+          <div class="row bg-white justify-content-center p-2 h6" style="font-size: smaller;">
+            <div class="col-sm-6 col-md">
+              <label for="" class="">&nbsp; PROPERTY TYPE</label>
+              <select class="form-select rounded-0 border-0" aria-label="Default select example">
+                <option class="py-2 shadow" selected>Any</option>
+                <option value="1">Home</option>
+                <option value="2">Office</option>
+                <option value="3">Rental</option>
+                <option value="4">Hospitality</option>
+              </select>
+            </div>
+            <div class="col-sm-6 col-md">
+              <label for="" class="">&nbsp; BEDROOM</label>
+              <select class="form-select rounded-0 border-0" aria-label="Default select example">
+                <option selected>Any</option>
+                <option value="1">2 - BHK</option>
+                <option value="2">4 - BHK</option>
+              </select>
+            </div>
+            <div class="col-sm-6 col-md">
+              <label for="" class="">&nbsp; PRICE RANGE</label>
+              <select class="form-select rounded-0 border-0" aria-label="Default select example">
+                <option selected>Any</option>
+                <option value="1">40 Lakhs to 2 Crores</option>
+              </select>
+            </div>
+            <div class="col-sm-6 col-md">
+              <label for="" class="">&nbsp; Community</label>
+              <select class="form-select rounded-0 border-0" aria-label="Default select example">
+                <option selected>All Communities</option>
+                <option value="1">Green City</option>
+                <option value="2">M Tower</option>
+                <option value="3">Cassia</option>
+              </select>
+            </div>
+            <div class="col-sm-12 col-md">
+              <button type="button" class="rounded-0 btn text-white w-100 my-2 p-2"
+                style="background-color: #f9b701; font-size: small;">
+                SEARCH PROPERTIES
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -160,15 +264,18 @@
     <!-- <section>
         <img class="w-100" src="assets/images/Mainlink to pages.jpg" alt="" />
       </section> -->
-    <section id="explore" class="container-fluid text-white">
+    <section id="explore" class="container-fluid text-white text-center">
       <div class="row">
-        <div class="padtopsmd position-relative col-lg-6 col-sm-12 px-0 backgroundimage" style="background-image: url(assets/images/aboutus.JPG);">
-          <img src="assets/images/aboutus.JPG" class="w-100 zoom opacity-0" alt="">
-          <div class="position-absolute top-50 start-50 translate-middle py-sm-5">
-            <a class="text-decoration-none text-white" href="aboutus.html"><h5>ABOUT US</h5></a>
-          </div>
+        <div class="padtopsm position-relative col-lg-6 col-sm-12  backgroundimage p-2 p-lg-0"
+          style=" /* background-image: url(assets/images/aboutus.JPG); */ ">
+          <a class="text-decoration-none text-white" href="aboutus.html">
+            <img src="assets/images/aboutus.JPG" class="w-100 zoom opacity- " alt="">
+            <div class="position-absolute top-50 start-50 translate-middle">
+              <h5>ABOUT US</h5>
+            </div>
+          </a>
         </div>
-        <div class="position-relative col-lg-6 col-sm-12 p-0">
+        <div class="position-relative col-lg-6 col-sm-12 p-2 p-lg-0">
           <img src="assets/images/sustainable.JPG" class="w-100 zoom" alt="">
           <div class="position-absolute top-50 start-50 translate-middle">
             <h5> SUSTAINABLE FUTURE</h5>
@@ -176,49 +283,59 @@
         </div>
       </div>
       <div class="row">
-        <div class="position-relative col-lg-4 col-sm-12 p-0">
+        <div class="position-relative col-lg-4 col-sm-12 p-2 p-lg-0">
           <img src="assets/images/design4life.jpeg" class="w-100 zoom" alt="">
           <div class="position-absolute top-50 start-50 translate-middle">
             <h5> DESIGN FOR LIFE</h5>
           </div>
         </div>
-        <div class="position-relative col-lg-4 col-sm-12 p-0">
+        <div class="position-relative col-lg-4 col-sm-12 p-2 p-lg-0">
           <img src="assets/images/RECREATION (4).jpeg" class="w-100 zoom" alt="">
           <div class="position-absolute top-50 start-50 translate-middle">
-            <a class="text-decoration-none text-white" href="projects.html"><h5>GREEN CITY</h5></a>
+            <a class="text-decoration-none text-white" href="projects.html">
+              <h5>GREEN CITY</h5>
+            </a>
           </div>
         </div>
-        <div class="position-relative col-lg-4 col-sm-12 p-0">
+        <div class="position-relative col-lg-4 col-sm-12 p-2 p-lg-0">
           <img src="assets/images/mtower.JPG" class="w-100 zoom" alt="">
           <div class="position-absolute top-50 start-50 translate-middle">
-            <a class="text-decoration-none text-white" href="mediasingle.html"><h5>M TOWER</h5></a>
+            <a class="text-decoration-none text-white" href="mediasingle.html">
+              <h5>M TOWER</h5>
+            </a>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="position-relative col-lg-4 col-sm-12 p-0">
+        <div class="position-relative col-lg-4 col-sm-12 p-2 p-lg-0">
           <img src="assets/images/cassia.jpg" class="w-100 zoom" alt="">
           <div class="position-absolute top-50 start-50 translate-middle">
-            <a class="text-decoration-none text-white" href="virtualtoursingle.html"><h5>CASSIA</h5></a>
+            <a class="text-decoration-none text-white" href="virtualtoursingle.html">
+              <h5>CASSIA</h5>
+            </a>
           </div>
         </div>
-        <div class="position-relative col-lg-4 col-sm-12 p-0">
+        <div class="position-relative col-lg-4 col-sm-12 p-2 p-lg-0">
           <img src="assets/images/virtualtour/vidbg1.jpg" class="w-100 zoom" alt="">
           <div class="position-absolute top-50 start-50 translate-middle">
             <div>
-              <a class="text-decoration-none text-white" href="virtualtour.html"><h5 class="text-center">VIRTUAL TOUR</h5></a>
+              <a class="text-decoration-none text-white" href="virtualtour.html">
+                <h5 class="text-center">VIRTUAL TOUR</h5>
+              </a>
               <img style="width: 100px;" class="mx-5" src="assets/images/360 (1).png" alt="">
             </div>
 
           </div>
         </div>
-        <div class="position-relative col-lg-4 col-sm-12 p-0">
+        <div class="position-relative col-lg-4 col-sm-12 p-2 p-lg-0">
           <img src="assets/images/leadership.jpeg" class="w-100 zoom" alt="">
           <div class="position-absolute top-50 start-50 translate-middle">
-            <a class="text-decoration-none text-white" href="leadership.html"><h5>LEADERSHIP PAGE</h5></a>
+            <a class="text-decoration-none text-white" href="leadership.html">
+              <h5>LEADERSHIP PAGE</h5>
+            </a>
           </div>
         </div>
-        <div class="position-relative col-12 p-0">
+        <div class="position-relative col-12 p-2 p-lg-0">
           <img src="assets/images/businessbuild.JPG" class="w-100 zoom" alt="">
           <div class="position-absolute top-50 start-50 translate-middle">
             <h5>BUSINESS</h5>
@@ -438,7 +555,7 @@
     </section>
     <section style="background-color: #4c5b6e; font-size: small;">
       <div class="d-flex flex-column flex-sm-row justify-content-between py-4 container text-white">
-        <p>&copy; ECOMOUNT 2023</p>
+        <p class="text-center">&copy; ECOMOUNT 2023</p>
         <ul class="nav col-12 col-md-auto justify-content-center mb-md-0 gap-2">
           <li>Home</li>
           <li>About</li>
