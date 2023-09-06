@@ -24,6 +24,7 @@
 
 .yellowlink {
   text-underline-offset: 8px;
+  font-size: 13px;
 }
 
 .yellowlink:hover {
