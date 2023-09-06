@@ -39,6 +39,15 @@
   color: #0ec75c;
 }
 
+.bluelink{
+  text-decoration: none;
+  color: black;
+}
+
+.bluelink:hover {
+  color: #15244b;
+}
+
 .gradbluegreen {
   background: rgb(0, 188, 163);
   background: linear-gradient(
@@ -65,25 +74,7 @@
 }
 
 /* owl carousel */
-/* .carousel-wrapper {
-  width: 1000px;
-  margin: auto;
-  position: relative;
-  text-align: center;
-  font-family: sans-serif;
-} */
-/* .owl-carousel .owl-nav {
-  overflow: hidden;
-  height: 0px;
-} */
-/* .owl-theme .owl-dots .owl-dot.active span,
-.owl-theme .owl-dots .owl-dot:hover span {
-  background: #5110e9;
-} */
 
-/* .owl-carousel .item {
-  text-align: center;
-} */
 .owl-carousel .nav-button {
   /* height: 50px; */
   width: 30px;
@@ -107,17 +98,4 @@
   top: 0%;
 
 }
-/* .owl-theme .owl-nav [class*=owl-] {
-  color: #ffffff;
-  font-size: 39px;
-  background: #000000;
-  border-radius: 3px;
-} */
-/* .owl-carousel .prev-carousel:hover {
-  background-position: 0px -53px;
-} */
-/* .owl-carousel .next-carousel:hover {
-  background-position: -24px -53px;
-} */
-
 /* owl carousel */
