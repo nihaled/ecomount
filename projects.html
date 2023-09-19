@@ -16,7 +16,7 @@
         <div class="container-fluid">
           <a class="navbar-brand d-md-block d-block d-md-none" href="#"><img src="assets/images/logomain.png"
               style="max-width: 200px" alt="" /></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
@@ -43,9 +43,28 @@
                   <li><a class="dropdown-item" href="values.html">Values</a></li>
                 </ul>
               </li>
-              <li class="nav-item py-3 px-lg-3">
-                <a class="nav-link" href="projects.html">PROJECTS</a>
+              <li class="nav-item dropdown py-3 px-lg-3">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="aboutus.html" role="button"
+                  aria-expanded="false">PROJECTS</a>
+                <ul class="dropdown-menu border-0 rounded-0 shadow">
+                  <li><a class="dropdown-item" href="projects.html">All Projects</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="leadership.html">Ongoing projects</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="philosophy.html">New projects</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="values.html">Future projects</a></li>
+                </ul>
               </li>
+              <!-- <li class="nav-item py-3 px-lg-3">
+                <a class="nav-link" href="projects.html">PROJECTS</a>
+              </li> -->
               <li class="nav-item logodnone">
                 <a class="nav-link" href="index.html"> <img src="assets/images/logomain.png" style="max-width: 200px"
                     alt="" />
@@ -83,40 +102,31 @@
             </div>
           </div>
           <div class="position-relative col-lg-9 col-sm-12 p-0">
-            <div id="carouselExample2" class="carousel slide overflow-hiddn" style="aspect-ratio: 16 / 9;">
+            <div id="carouselExample1" class="carousel slide overflow-hiddn" style="aspect-ratio: 16 / 9;">
               <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="assets/images/media/sq.jpeg" style="aspect-ratio: 16 / 9;object-fit: cover;"
-                    class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block text-start">
-                    <h2>Cassia</h2>
-                    <a href="virtcassia.html" class="rounded-0 btn text-white" style="background-color: #16254c">View Details <i
-                        class="bi bi-arrow-right"></i></a>
-                  </div>
-                </div>
                 <div class="carousel-item">
                   <img src="assets/images/media/sq.jpeg" style="aspect-ratio: 16 / 9;object-fit: cover;"
                   class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block text-start">
                   <h2>M Tower</h2>
-                  <a href="virtmtower.html" class="rounded-0 btn text-white" style="background-color: #16254c">View Details <i
+                  <a href="#explore" class="rounded-0 btn text-white" style="background-color: #16254c">View Details <i
                       class="bi bi-arrow-right"></i></a>
                 </div>                </div>
-                <div class="carousel-item">
-                  <img src="assets/images/media/sq.jpeg" style="aspect-ratio: 16 / 9;object-fit: cover;"
+                <div class="carousel-item active">
+                  <img src="assets/images/GREENCITY/ENTRY.jpeg" style="aspect-ratio: 16 / 9;object-fit: cover;"
                   class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block text-start">
                   <h2>Green City</h2>
-                  <a href="virtgreencity.html" class="rounded-0 btn text-white" style="background-color: #16254c">View Details <i
+                  <a href="#explore" class="rounded-0 btn text-white" style="background-color: #16254c">View Details <i
                       class="bi bi-arrow-right"></i></a>
                 </div>                </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2"
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2"
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1"
                 data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
