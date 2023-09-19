@@ -6,7 +6,7 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.backgroundimage{
+.backgroundimage {
   background-size: cover;
   background-position: center;
 }
@@ -40,7 +40,7 @@
   color: #0ec75c;
 }
 
-.bluelink{
+.bluelink {
   text-decoration: none;
   color: black;
 }
@@ -51,11 +51,7 @@
 
 .gradbluegreen {
   background: rgb(0, 188, 163);
-  background: linear-gradient(
-    180deg,
-    rgba(0, 188, 163, 1) 0%,
-    #0ec75c 100%
-  );
+  background: linear-gradient(180deg, rgba(0, 188, 163, 1) 0%, #0ec75c 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -65,11 +61,11 @@
   border-bottom: solid 3px rgb(14 199 92);
 }
 
-@media (max-width: 767px) {                  
+@media (max-width: 767px) {
   .logodnone {
-     display: none;
+    display: none;
   }
-  .padtopsmd{
+  .padtopsmd {
     padding-top: 30vh;
   }
 }
@@ -97,6 +93,11 @@
 .owl-carousel .owl-next {
   right: -40px;
   top: 0%;
-
 }
 /* owl carousel */
+
+/* floatingbutton */
+.bpw-floating-button {
+  box-shadow: none !important;
+  border: 2px solid white !important;
+}
