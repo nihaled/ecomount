@@ -11,6 +11,10 @@
   background-position: center;
 }
 
+.bgblue{
+  background-color: #15244b;
+}
+
 .zoom {
   transition: transform 0.2s;
 }
