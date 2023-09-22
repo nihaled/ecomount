@@ -168,11 +168,15 @@
       <div class="container p-5">
         <div class="row">
           <div class="col-12 col-lg-5">
-            <h1 class="gradbluegreen my-5">CIVILIZATION <br> ARE BUILT ON <br> THE RIVER <br> SHORES</h1>
+            <h1 class="gradbluegreen my-5">VALLEY OF Of<br>
+              CONNECTIVITY  </h1>
           </div>
           <div class="col-12 col-lg-5 d-flex">
-            <p class="my-auto">Here comes the latest one at the downhill of wayanad Ghats, on the shores of year-long
-              stream. Shift to a new way of natural living. </p>
+            <p class="my-auto">We place you right in the centre of anything and everything you may
+              need. At Cassia, you are just beside the airport, best educational and
+              healthcare institutions around as well as the city. Cassia offers a
+              hassle-free living experience with best-in-class features and
+              amenities.</p>
           </div>
         </div>
       </div>
@@ -181,9 +185,11 @@
       <div class="container backgroundimage" style="background-image: url(assets/images/cassia/Rain\ Front_wm\ 1.jpg);">
         <div class="row">
           <div class="col-12 col-lg-4 ps-5 py-5">
-            <h2 class="gradbluegreen py-3 my-5">HAVE IT ALL</h2>
-            <p class="text-white my-5 py-5">Here comes the latest one at the downhill of wayanad Ghats, on the shores of year-long
-              stream. Shift to a new way of natural living.</p>
+            <h2 class="gradbluegreen py-3 my-5">VALLEY IS FOR EVERYONE  </h2>
+            <p class="text-white my-5 py-5">The architectural magnificence ensures a view of the nature’s
+              spectacle from each villa and apartment, letting you welcome
+              sunshine and breeze with no hindrance. The valley is a nature’s
+              canvas adorning each and every villa and apartment of Cassia.</p>
           </div>
         </div>
         
@@ -403,6 +409,41 @@
       </div>
     </section>
   </div>
+
+
+  <script>
+    const downloadPdf = document
+        .querySelector("#download-pdf");
+
+    const submitForm = document
+        .querySelector("#submit-form");
+
+    downloadPdf.addEventListener("click", () => {
+
+        // Creating the element anchor that
+        // will download pdf
+        let element = document.createElement("a");
+        element.href = ".assets/pdf/CASSIAHOMES.pdf";
+        element.download = "assets/pdf/CASSIAHOMES.pdf";
+
+        // Adding the element to body
+        document.documentElement.appendChild(element);
+
+        // Above code is equivalent to
+        // <a href="path of file" download="file name"> 
+
+        // onClick property, to trigger download
+        element.click();
+
+        // Removing the element from body
+        document.documentElement.removeChild(element);
+
+         // onClick property, to trigger submit form
+        submitForm.click();
+    });
+</script>
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
