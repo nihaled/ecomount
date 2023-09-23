@@ -207,6 +207,12 @@
                         data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ongoing Projects</a>
                       <ul class="dropdown-menu border-0 rounded-0 shadow" aria-labelledby="multilevelDropdownMenu2">
                         <li>
+                          <a class="dropdown-item" href="projectsgmtower.html">M tower</a>
+                        </li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li>
                           <a class="dropdown-item" href="projectsgreen.html">Green City</a>
                         </li>
                         <li>
@@ -214,12 +220,6 @@
                         </li>
                         <li>
                           <a class="dropdown-item" href="projectscassia.html">Cassia</a>
-                        </li>
-                        <li>
-                          <hr class="dropdown-divider">
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="projectsgmtower.html">M tower</a>
                         </li>
                       </ul>
                     </li>
@@ -614,7 +614,7 @@
               eiusmod tempor incididunt ut labore et dolore magna aliqua. s
               nostrud exercitatio
             </p>
-            <a href="media.html" class="yellowlink">READ MORE</a>
+            <a href="mediasingle.html" class="yellowlink">READ MORE</a>
           </div>
           <div class="col-lg-4 col-sm-12 mb-5 p-4 p-md-3">
             <img src="assets/images/news2.png" alt="" class="w-100" />
@@ -625,7 +625,7 @@
               eiusmod tempor incididunt ut labore et dolore magna aliqua. s
               nostrud exercitatio
             </p>
-            <a href="media.html" class="yellowlink">READ MORE</a>
+            <a href="mediasingle.html" class="yellowlink">READ MORE</a>
           </div>
           <div class="col-lg-4 col-sm-12 mb-5 p-4 p-md-3">
             <img src="assets/images/news3.png" alt="" class="w-100" />
@@ -636,7 +636,7 @@
               eiusmod tempor incididunt ut labore et dolore magna aliqua. s
               nostrud exercitatio
             </p>
-            <a href="media.html" class="yellowlink">READ MORE</a>
+            <a href="mediasingle.html" class="yellowlink">READ MORE</a>
           </div>
         </div>
       </div>
@@ -664,14 +664,9 @@
                     website user friendly?</a>
                 </li>
                 <li class="nav-item mb-2">
-                  <a href="#" class="nav-link text-white border-bottom border-secondary pb-2 p-0"><i
+                  <a href="#" class="nav-link text-white border-secondary pb-2 p-0"><i
                       class="bi bi-chevron-double-right pe-2 h"></i>How you
                     can impact your costomers?</a>
-                </li>
-                <li class="nav-item mb-2">
-                  <a href="#" class="nav-link text-white  pb-2 p-0"><i class="bi bi-chevron-double-right pe-2 h"></i>Is
-                    your
-                    website user friendly?</a>
                 </li>
               </ul>
             </div>
@@ -796,6 +791,50 @@
       </div>
     </section>
   </div>
+
+  <!-- floating button -->
+  <a href="#" class="float btn btn-light" type="button" data-bs-toggle="modal" data-bs-target="#getintouch">
+      GET IN TOUCH
+    </a>
+
+  <!-- floating button -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="getintouch" tabindex="-1" aria-labelledby="getintouchLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content border-0 rounded-0">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="getintouchLabel">GET IN TOUCH</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form method="post">
+
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Name" required>
+          </div>
+          <div class="mb-3">
+            <label for="Phone" class="form-label">Phone Number</label>
+            <input type="text" class="form-control" id="Phone" placeholder="Phone Number" required>
+          </div>
+          <div class="mb-3">
+            <label for="name" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="name" placeholder="email@example.com" required>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn rounded-0 btn-secondary" data-bs-dismiss="modal">Close</button>
+            <input type="submit" id="submit-form" 
+                value="submit" hidden />
+          <button type="button" id="download-pdf" class="btn rounded-0 btn-dark">SUBMIT</button>
+        </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
 
   <script>
     $(document).ready(function () {
