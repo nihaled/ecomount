@@ -103,6 +103,7 @@ max-height: 5vh;
 
 /* floating buton */
 
+
 /* owl carousel */
 
 .owl-carousel .nav-button {
@@ -134,3 +135,10 @@ max-height: 5vh;
   box-shadow: none !important;
   border: 2px solid white !important;
 }
+/* floatingbutton */
+
+/* phylosophy page */
+
+#more {display: none;}
+
+/* phylosophy page */
